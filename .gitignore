@@ -31,7 +31,7 @@
 /config/master.key
 
 .DS_store
-/,env
+/.env
 /db/development.sqlite3
 /ubuntu-bionic-18.04-cloudimg-console.log
 /log/development.log
