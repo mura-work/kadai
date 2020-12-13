@@ -75,3 +75,5 @@ gem 'bootstrap-sass', '~> 3.3.6'
 gem 'jquery-rails'
 
 gem 'dotenv-rails'
+
+gem "whenever", require: false
