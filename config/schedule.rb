@@ -29,10 +29,10 @@
 
 
 
-require File.expand_path(File.dirname(__FILE__) + "/environment")
-rails_env = Rails.env.to_sym ## 環境の指定→developmentが入ってる
-set :environment, rails_env
-set :output, 'log/cron.log' ## ログの出力先を指定
-every 2.minute do
-    rake 'task_sample:sample' ## 毎分コード実行
-end
+# require File.expand_path(File.dirname(__FILE__) + "/environment")
+# rails_env = Rails.env.to_sym ## 環境の指定→developmentが入ってる
+# set :environment, rails_env
+# set :output, 'log/cron.log' ## ログの出力先を指定
+# every 2.minute do
+#     rake '' ## 毎分コード実行
+# end
